@@ -17,19 +17,19 @@ public class DataType{
     //long range is 8 byte
     long valueLong= 275000l;
     System.out.println(value long);
-    //float range is 16 byte
+    //float range is 4 byte
     float valueFloat= 20.56f;
     System.out.println(valueFloat);
-    //double range is 32 byte
+    //double range is 8 byte
     double valueDouble= 75.678d;
     System.out.println(value double);
-    //boolean range is 1 byte value is true and false
+    //boolean range is 1 bit value is true and false
     boolean valueBool= true;
     System.out.println(valueBool);
     // String value is text
     String name = "ifan mauladi";
     System.out.println(name);
-    //for variable cannot change used final keyword
+    //for final variable cannot change
     final boolean isBool = true;
     //if the isBool changed 
     isBool = false; // will generate an error
