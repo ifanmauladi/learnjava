@@ -23,5 +23,16 @@ public class DataType{
     //double range is 32 byte
     double valueDouble= 75.678d;
     System.out.println(value double);
+    //boolean range is 1 byte value is true and false
+    boolean valueBool= true;
+    System.out.println(valueBool);
+    // String value is text
+    String name = "ifan mauladi";
+    System.out.println(name);
+    //for variable cannot change used final keyword
+    final boolean isBool = true;
+    //if the isBool changed 
+    isBool = false; // will generate an error
+    System.out.println(isBool);
   }
 }
