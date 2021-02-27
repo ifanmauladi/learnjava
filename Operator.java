@@ -8,13 +8,14 @@ public class Operator{
     z = x * y;
     z = x / y;
     z = y % x;
-    z = y--;
-    z = x++;
+    z--;
+    z++;
     //assignment operators
     y += 5;
     y -= 3;
     y *= 3;
     y /= 2;
+    y %= 4;
     //coming soon
   }
 }
