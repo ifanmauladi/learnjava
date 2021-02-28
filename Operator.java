@@ -16,6 +16,19 @@ public class Operator{
     y *= 3;
     y /= 2;
     y %= 4;
-    //coming soon
+    //logical operator
+    
+    boolean first = true;
+    boolean second = false;
+    boolean value;
+    //and logical
+    value = first&second;
+    //or logical 
+    value = first|second;
+    // not logical
+    value = !first;
+    //xor logical
+    value = first^second;
+
   }
 }
