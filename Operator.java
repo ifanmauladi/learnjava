@@ -1,5 +1,5 @@
 public class Operator{
-  public static void main(String[] arcs){
+  public static void main(String[] args){
     System.out.println("we will learn the operator in java");
     byte x = 12, y = 15;
     //arithmetic operators
