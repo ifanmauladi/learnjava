@@ -32,7 +32,20 @@ public class Operator{
     y *= 3;
     y /= 2;
     y %= 4;
-    //coming soon
-
+    //basic of logical operator
+    boolean first = true;
+    boolean second = false;
+    // and logical
+    System.out.print("and logical: ");
+    boolean and = first && second;
+    System.out.println(and);
+    //or logical
+    System.out.print("or logical: ");
+    boolean or = first || second;
+    System.out.println(or);
+    //not logical 
+    System.out.print("not logical: ");
+    boolean not = !first;
+    System.out.println(not);
   }
 }
