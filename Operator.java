@@ -27,20 +27,27 @@ public class Operator{
     //basic of logical operator
     boolean first = true;
     boolean second = false;
+
     // and logical
-    System.out.print("and logical: ");
     boolean and = first && second;
-    System.out.println(and);
+    
     //or logical
-    System.out.print("or logical: ");
     boolean or = first || second;
-    System.out.println(or);
+    
     //not logical 
-    System.out.print("not logical: ");
     boolean not = !first;
-    System.out.println(not);
+    
+    show(and);  // value false
+    show (or);   //  value true
+    show(not);   // value false
+
   }
   public static void show(int value){
     System.out.printf("nilai = %d", value);
+  }
+
+  public static boolean show(boolean state){
+    System.out.printf("logika = %b", state);
+    return state;
   }
 }
