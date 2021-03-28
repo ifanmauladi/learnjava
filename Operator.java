@@ -19,6 +19,35 @@ public class Operator{
     System.out.println("we will learn the operator in java");
     int x = 12, y = 15;
     //arithmetic operators
+
+    byte z = x + y;
+    z = x - y;
+    z = x * y;
+    z = x / y;
+    z = y % x;
+    z--;
+    z++;
+    //assignment operators
+    y += 5;
+    y -= 3;
+    y *= 3;
+    y /= 2;
+    y %= 4;
+    //logical operator
+    
+    boolean first = true;
+    boolean second = false;
+    boolean value;
+    //and logical
+    value = first&second;
+    //or logical 
+    value = first|second;
+    // not logical
+    value = !first;
+    //xor logical
+    value = first^second;
+
+
     show(x+y);   //value 27
     show(x-y);    // value -3
     show(x*y);    // value 180
@@ -42,5 +71,6 @@ public class Operator{
   }
   public static void show(int value){
     System.out.printf("nilai = %d", value);
+
   }
 }
